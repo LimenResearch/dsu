@@ -73,7 +73,7 @@ layout: true
 ```python
       class ACustomException(Exception):
         def __init__(self, my_arg):
-          self.message = "A meaningful comment)
+          self.message = "A meaningful comment"
           super().__init__(self.message)
 ```
 
@@ -97,7 +97,7 @@ layout: true
             super().__init__(self.message)
   ```
 
-- Specify types and ouputs
+- Specify types and outputs
   
   ```python
     def __init__(self, travel_type: int) -> None:

@@ -1,6 +1,6 @@
 <div class="row" style="width:100%;margin-top:200px">
-  <h1 class="almost_white">Parametric machines</h1>
-  <h3 class="almost_white">Pietro Vertechi & Mattia G. Bergomi</h3>
+  <h1>Parametric machines</h1>
+  <h3>Pietro Vertechi & Mattia G. Bergomi</h3>
   <p>pietro.vertechi@protonmail.com, mattiagbergomi@gmail.com</p>
 </div>
 
