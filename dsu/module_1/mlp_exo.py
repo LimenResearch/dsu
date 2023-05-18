@@ -1,8 +1,8 @@
 import numpy as np
 import torch
 import torch.nn as nn
-from mpm.data_management.exoplanet import ExoDataset
-from mpm.model_evaluation.evaluation import evaluate, plot_cm
+from dsu.data_management.exoplanet import ExoDataset
+from dsu.model_evaluation.evaluation import evaluate, plot_cm
 from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
 
