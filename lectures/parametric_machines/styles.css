@@ -1,0 +1,286 @@
+/* 400 used for body */
+@font-face{
+  font-family: 'Quattrocento';
+  src: url('fonts/Quattrocento/Quattrocento-Regular.ttf');
+}
+@font-face{
+  font-family: 'Quattrocento';
+  src: url('fonts/Quattrocento/Quattrocento-Bold.ttf');
+  font-weight: bold;
+}
+@font-face{
+  font-family: 'Quattrocento Sans';
+  src: url('fonts/QuattrocentoSans/QuattrocentoSans-Regular.ttf');
+}
+@font-face{
+  font-family: 'Quattrocento Sans';
+  src: url('fonts/QuattrocentoSans/QuattrocentoSans-Bold.ttf');
+  font-weight: bold;
+}
+/* YanoneJaffeesatz used for h1, h2, h3 */
+@font-face{
+  font-family: 'Yanone Kaffeesatz';
+  src: url('fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-Regular.ttf');
+}
+@font-face{
+  font-family: 'Yanone Kaffeesatz';
+  src: url('fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-Bold.ttf');
+  font-weight: bold;
+}
+
+/* Ubuntu Mono used for code, do we need Italic for code ? */
+@font-face{
+  font-family: 'Ubuntu Mono';
+  src: url('fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf');
+}
+@font-face{
+  font-family: 'Ubuntu Mono';
+  src: url('fonts/Ubuntu_Mono/UbuntuMono-Bold.ttf');
+  font-weight: bold;
+}
+@font-face{
+  font-family: 'Ubuntu Mono';
+  src: url('fonts/Ubuntu_Mono/UbuntuMono-Italic.ttf');
+  font-style: italic;
+}
+@font-face{
+  font-family: 'Ubuntu Mono';
+  src: url('fonts/Ubuntu_Mono/UbuntuMono-BoldItalic.ttf');
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+      font-family: 'Quattrocento Sans';
+      color: #2E2E2E;
+    }
+
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+  color: #2E2E2E;
+  letter-spacing: 0.75pt;
+  margin-bottom: 0.5em;
+}
+
+h1, h2, h3.margin-bottom {
+  margin-bottom: 1em;
+}
+
+h4 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+  font-size: 24px;
+  color: #2E2E2E;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+ul, ol, p {
+  margin-block-start: 0.75em;
+  margin-block-end: 0.75em;
+}
+
+.tight {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+/* Matrix div layout */
+.column {
+  float: left;
+  width: 33%;
+  padding: 1px;
+  height: 100%
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  float:left;
+}
+.page-break {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.remark-slide-content{background-size: contain; font-size: 24px;}
+.remark-slide-content{background-color: GhostWhite;}
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+.white {
+  background-color: white;
+}
+
+.katex { font-size: 1em; }
+
+.is-centered {display: block; margin-left: auto; margin-right: auto;}
+
+/* .almost_white{ color: #2E2E2E} */
+
+table, th, td {
+  border: 0px solid black;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+    width:25%;
+}
+
+table {
+  display: table;
+  width: 100%;
+}
+
+.footnotes {
+  position: absolute;
+  bottom: calc(12px + 1.6em);
+}
+
+.absolute-center {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 14px;
+}
+
+/* Compensate for small font */
+.bottom-small {
+  position: absolute;
+  bottom: 14px;
+}
+
+.footer {
+  font-family: 'Quattrocento';
+  font-weight: normal;
+  font-size: 20px;
+  color: #2E2E2E;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 12px;
+}
+
+.header { position: absolute; top: 2%; left: 35% }
+/* unvisited link */
+a:link {
+  color: #55AD9D;
+}
+
+/* visited link */
+a:visited {
+  color: #438D99;
+}
+
+/* mouse over link */
+a:hover {
+  color: #5CBA99;
+}
+
+.container {
+  width: 60%;
+}
+
+.half-width-wide {
+  width: 55%;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.half-width-thin {
+  width: 45%;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.column-left {
+  float: left;
+  width: 50%;
+}
+
+.column-right {
+  float: right;
+  width: 40%;
+}
+
+.column-right-thin {
+  float: right;
+  width: 30%;
+}
+
+.column-right-semi-thin {
+  float: right;
+  width: 35%;
+}
+
+.column-right-semi-wide {
+  float: right;
+  width: 45%;
+}
+
+.column-right-wide {
+  float: right;
+  width: 50%;
+}
+
+.column-right-very-wide {
+  float: right;
+  width: 60%;
+}
+
+.column-left-thin {
+  float: left;
+  width: 40%;
+}
+
+.column-left-semi-thin {
+  float: left;
+  width: 45%;
+}
+
+.column-left-semi-wide {
+  float: left;
+  width: 55%;
+}
+
+.column-left-wide {
+  float: left;
+  width: 60%;
+}
+
+.column-left-wider {
+  float: left;
+  width: 68%;
+}
+
+
+.long{
+  height: 100%
+}
+
+.no-padding-top{
+  padding-top: 0;
+}
