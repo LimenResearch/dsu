@@ -97,7 +97,7 @@ layout: true
             super().__init__(self.message)
   ```
 
-- Seopcify types and ouputs
+- Specify types and ouputs
   
   ```python
     def __init__(self, travel_type: int) -> None:
@@ -168,7 +168,7 @@ Despite the wide variety of applications of deep learning, the general strategy 
 ]
 --
 .container[
-- Choose a differentiable parametric function $\hat y = f(x, p)$, where $x$ is the input and $p$ the parameters.
+- Choose a differentiable parametric function $\hat y = f(p, x)$, where $p$ are the parameters and $x$ is the input.
 ]
 --
 .container[
@@ -542,7 +542,7 @@ count: false
 ### The road so far
 
 .container[
-- We have constructed a parametric function $\hat y = f(x, p)$: the *multilayer perceptron*.
+- We have constructed a parametric function $\hat y = f(p, x)$: the *multilayer perceptron*.
 
 - The parameters $p$ contain all the weight matrices $W$ and bias vectors $b$.
 
@@ -555,7 +555,7 @@ count: false
 
 - Let us now consider a dataset $\mathcal{D} = \\{(x\_i, y\_i)\\}\_{i=1}^N$.
 
-- We wish to minimize $\mathcal{L}(y_i, \hat y_i)$, across all $(x_i, y_i) \in \mathcal{D}$, where $\hat y_i = f(x_i, p)$.
+- We wish to minimize $\mathcal{L}(y_i, \hat y_i)$, across all $(x_i, y_i) \in \mathcal{D}$, where $\hat y_i = f(p, x_i)$.
 
 - Intuitive approach: compute $\frac{\partial \mathcal{L}}{\partial p}$ directly and apply gradient descent.
 
@@ -587,7 +587,7 @@ Many other batched optimizers can be used.
 
 --
 
-- Define a parametric function $\hat y = f(x, p)$ (multilayer perceptron, for today).
+- Define a parametric function $\hat y = f(p, x)$ (multilayer perceptron, for today).
 
 --
 
