@@ -101,7 +101,7 @@ th, td {
     text-align: left;
 }
 
-.footer { position: absolute; bottom: 12px; left: 50% }
+.footer { position: absolute; bottom: 12px; left: 80% }
 
 /* unvisited link */
 a:link {

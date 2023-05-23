@@ -1,7 +1,14 @@
 <div class="row" style="width:100%;margin-top:200px">
   <h1 class="almost_white">Knowledge Injection in Deep Learning</h1>
-  <h3 class="almost_white">Mattia Bergomi</h3>
-  <h4 class="almost_white">mattia.bergomi@unito.it</h4>
+  <h3 class="almost_white">Mattia Bergomi and Pietro Vertechi</h3>
+  <h4 class="almost_white">mattiagbergomi@gmail.com, pietro.vertechi@protonmail.com</h4>
+</div>
+
+---
+
+layout: true
+<div class="footer", style="">
+  Limen Research
 </div>
 
 ---
@@ -472,3 +479,7 @@ layout: false
 class: center
 
 mattia.bergomi@unito.it
+
+mattiagbergomi@gmail.it
+
+pietro.vertechi@protonmail.com
