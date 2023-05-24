@@ -474,7 +474,7 @@ count: false
 
   - Machines can outperform sequential neural networks.
 
-  - Machines have fewer parameters, hence better generalization capabilities, than sequential neural networks.
+  - Given the same number of parameters, machines can be more expressive than neural networks.
 ]
 
 --
@@ -487,8 +487,6 @@ count: false
 ---
 
 ### Summary so far
-
---
 
 - Hand-crafted architectures require highly trained experts<br>and time-consuming fine-tuning.
 
@@ -512,7 +510,7 @@ count: false
 
 --
 
-- Due to the smaller number of parameters, machines tend<br>to generalize better than traditional neural networks.
+- Machines can outperform neural networks on prediction and<br>generalization tasks.
 
 ---
 
