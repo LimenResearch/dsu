@@ -488,6 +488,8 @@ count: false
 
 ### Summary so far
 
+--
+
 - Hand-crafted architectures require highly trained experts<br>and time-consuming fine-tuning.
 
 --
